@@ -1,7 +1,12 @@
+path_prefix = './'
+
 # main.py
 import os
 import torch
+from utils import *
+from preprocess import *
 import argparse
+
 import numpy as np
 from torch import nn
 from gensim.models import word2vec
